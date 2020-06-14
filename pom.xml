@@ -24,6 +24,11 @@
 				<artifactId>gdx</artifactId>
 				<version>${gdx.version}</version>
 			</dependency>
+			<dependency>
+				<groupId>com.badlogicgames.gdx</groupId>
+				<artifactId>gdx-box2d</artifactId>
+				<version>${gdx.version}</version>
+			</dependency>
 
 			<!-- desktop-specific dependencies -->
 			<dependency>
@@ -35,6 +40,13 @@
 			<dependency>
 				<groupId>com.badlogicgames.gdx</groupId>
 				<artifactId>gdx-platform</artifactId>
+				<version>${gdx.version}</version>
+				<classifier>natives-desktop</classifier>
+			</dependency>
+
+			<dependency>
+				<groupId>com.badlogicgames.gdx</groupId>
+				<artifactId>gdx-box2d-platform</artifactId>
 				<version>${gdx.version}</version>
 				<classifier>natives-desktop</classifier>
 			</dependency>
